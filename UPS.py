@@ -7,10 +7,10 @@ import sqlalchemy
 import urllib
 
 conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=dds-services-uscen01.database.windows.net;'
-                      'Database=DDSLab_Services;'
-                      'UID=ddsreporting;'
-                      'PWD=repor62937!g;')
+                      'Server=Server Name;'
+                      'Database=Database Name;'
+                      'UID=abc;'
+                      'PWD=xxx;')
 
 script1 =('''SELECT [ID]
             ,[DDS_CaseID] AS [CaseID]
