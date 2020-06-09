@@ -1,4 +1,5 @@
 #Code to send out an email with an attached file
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
